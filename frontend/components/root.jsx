@@ -6,10 +6,10 @@ import ShopifySplashPage from './shopify_oauth/shopify_splash_page';
 
 const Root = () => {
   return(
-    <Router history={hashHistory}>
-      <Route path="/" component={App}>
+    <Router history={ hashHistory }>
+      <Route path="/" component={ App }>
         <IndexRedirect to="/shopify"/>
-        <Route path="/shopify" component={ShopifySplashPage}/>
+        <Route path="/shopify" component={ ShopifySplashPage }/>
       </Route>
     </Router>
   );

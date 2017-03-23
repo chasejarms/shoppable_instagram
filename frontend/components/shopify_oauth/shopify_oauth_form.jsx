@@ -8,7 +8,7 @@ class ShopifyOauthForm extends React.Component {
       shopName: "",
       apiKey: "b99d5e737506a4d4d1f6aa5515281bc5",
       scopes: "read_products",
-      redirectURI: "http://localhost:3000/shopify-authentication",
+      redirectURI: 'http://localhost:3000/',
       secureToken: ""
     };
     this.handleShopNameChange = this.handleShopNameChange.bind(this);
